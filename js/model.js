@@ -88,6 +88,7 @@
 	 */
 	Model.prototype.removeAll = function (callback) {
 		this.storage.drop(callback);
+
 	};
 
 	/**
